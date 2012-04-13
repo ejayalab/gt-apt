@@ -9,12 +9,12 @@ debug_enable();
 
 $db = new Database();
 $db->debug_enable();
-$table = 'test';
-$fields_values = array(
-    'nombre' => 'Edison Javier',
-    'apellido' => 'Ayala Benavides',
-    'email' => 'ejayalab@bt.unal.edu.co',
-);
+//$table = 'test';
+//$fields_values = array(
+//    'nombre' => 'Edison Javier',
+//    'apellido' => 'Ayala Benavides',
+//    'email' => 'ejayalab@bt.unal.edu.co',
+//);
 
 //$last_id = $db->exec_INSERTquery($table, $fields_values);
 //print_debug('Record insertado con id: ' . $last_id);
