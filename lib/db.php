@@ -352,7 +352,7 @@ class Database {
     }
 
     function sql_error() {
-        return ', mysql error: ' . mysql_error($this->resource_connection);
+        return ', MYSQL_ERROR: ' . mysql_error($this->resource_connection);
     }
 
     function debug_enable() {
