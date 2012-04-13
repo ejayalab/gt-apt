@@ -8,7 +8,6 @@
 class Database {
 
     private $resource_connection = null;
-    private $resource_query = null;
     var $debugOutput = FALSE; // Set "TRUE" or "1" if you want database errors outputted. Set to "2" if you also want successfull database actions outputted.
     var $debug_lastBuiltQuery = ''; // Internally: Set to last built query (not necessarily executed...)
     var $store_lastBuiltQuery = FALSE; // Set "TRUE" if you want the last built query to be stored in $debug_lastBuiltQuery independent of $this->debugOutput
@@ -363,5 +362,4 @@ class Database {
     }
 
 }
-
 ?>
