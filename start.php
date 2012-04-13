@@ -1,22 +1,22 @@
 <?php
 
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Se encarga de cargar todos los recursos que se van a utilizar en la plataforma
+ * incluye librerias de php, carga en la variable $CFG archivos de javascript y css.
  */
+global $CFG;
 unset($includes);
 $includes = array(
     'lib/lang.php',
     'lib/util.php',
+    'lib/db.php',
 );
-unset($jsArrayIncludes);
-global $jsArrayIncludes;
-$jsArrayIncludes = array(
+unset($CFG->jsArrayIncludes);
+$CFG->jsArrayIncludes = array(
     'assets/js/script.js',
 );
-unset($cssArrayIncludes);
-global $cssArrayIncludes;
-$cssArrayIncludes = array(
+unset($CFG->cssArrayIncludes);
+$CFG->cssArrayIncludes = array(
     'assets/css/styles.css',
 );
         
