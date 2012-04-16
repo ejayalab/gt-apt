@@ -10,3 +10,14 @@ root {
     display: block;
 }
 
+.error{
+    background-color: #FFADB7;
+    border: #cc0033 2px solid;
+    border-radius: 8px;
+    color: #0A0001;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+

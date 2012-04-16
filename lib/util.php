@@ -50,7 +50,7 @@ function print_error($error){
     
     if(!include_once $CFG->dirroot . 'views/error.php'){
         
-        print 'No se encontro la vista de error, error: ' . $error;
+        print '<div class="error"><p>No se encontro la vista de error, error: ' . $error . '</p></div>';
     }
     
     exit();
